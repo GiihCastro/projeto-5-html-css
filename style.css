@@ -88,29 +88,35 @@ header{
 }
 
 .sec1{
+    width: 100%;
+    max-height: 900px;
+
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./arquivos/ambiente.webp);
     background-repeat: no-repeat;
     background-position: center ;
     background-size: cover;
     margin-bottom: 197px;
-    
+
+    display: flex;
 
 }
-.sec1{
-    width: 1897px;
-    height: 900px;
-    
+
+.texto1{
+    width: 560px;
+    height: 327px;
+
+    margin: 286px 816px 286px 64px;
+
 }
 
-.sec1 h1{
+.texto1 h1{
     font-size: 56px;
     font-weight: bold;
     margin-bottom: 24px;
     color: var(--braco);
-    padding-top: 286px;
 }
 
-.sec1 p{
+.texto1 p{
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 24px;
@@ -146,11 +152,6 @@ header{
     color: var(--braco);
 }
 
-.texto1{
-    margin-left: 64px;
-    
-}
-
 .tagline {
     display: flex;
     align-items: center;
@@ -176,9 +177,11 @@ img {
 
 .text {
     max-width: 616px;
+    margin-left: 30px;
+
 }
 
-.text h1 {
+ h1 {
     font-size: 48px;
     font-weight: bold;
 
@@ -227,38 +230,42 @@ img {
 
 }
 
-.sec2{
-    width: 1897px;
-    height: 780px;
-    }
-
-    .sec2 h2{
-        font-size: 32px;
-        font-weight: bold;
-        margin-left: 64px;
-        margin-bottom: 16px;
-
-    }
-
-    .sec2 p{
-        font-size: 16px;
-        font-weight: 400;
-        margin-left: 64px;
-        margin-bottom: 40px;
-    }
-    
-.sec2{
+.tagline2 {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 112px 64px;
 }
 
-.sec2 img{
-    margin-left: 80px;
-    width: 600px;
-    height: 500px;
-    position: relative;
-    bottom: 50px;
+.sec img {
+    width: 616px;
+    min-height: 600px;
 }
+
+.sec2 {
+    max-width: 616px;
+    margin-left: 30px;
+
+}
+
+.sec2 h2{
+    font-size: 32px;
+    font-weight: bold;
+
+    margin-bottom: 16px;
+
+}
+
+.sec2 p{
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-bottom: 40px;
+}
+
+
+
 
 .cta {
     width: 100%;
@@ -322,6 +329,10 @@ img {
     margin: 80px 64px;
 }
 
+.end h2 {
+    width: 392px;
+}
+
 .end ul {
     display: flex;
     list-style: none;
@@ -331,6 +342,10 @@ img {
 
 .end img {
     width: 24px;
+}
+
+#face {
+    margin-left: 110px;
 }
 
 .end li a {
@@ -365,4 +380,20 @@ img {
     color: #000000;
     text-decoration: none;
     font-size: 14px;
+}
+
+.linha-meio{
+    margin-right: 32px ;
+}
+
+@media (max-width: 930px) {
+
+.texto1{
+    max-width: 560px;
+    height: 327px;
+
+    margin: 286px 816px 286px 64px;
+
+}
+
 }
