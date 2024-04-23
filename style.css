@@ -1,0 +1,368 @@
+:root{
+    --black:#000000;
+    --braco:#FFFFFF;
+    --cinza:#F4F4F4;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+
+header{
+    height: 1440px;
+    height: 100px;
+
+} 
+
+.vaneg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.vaneg img{
+    width: 100px;
+    margin-left: 62px;
+}
+
+.menu{
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-item{
+    padding: 32px;
+    font-size: 16px;
+    
+}
+.nav-item ,button{
+    padding: 10px 20px;
+}
+
+.vaneg a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+.butão1{
+    background-color: white;
+    border: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: 400;
+    
+}
+
+.butão2 {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: 400;
+    
+}
+
+.butão2 a{
+    color: white;
+}
+
+.vaneg ul{
+    margin-right: 50px;
+    list-style: none;
+}
+
+.vaneg ul li{
+    font-size: 16px;
+}
+
+.sec1{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./arquivos/ambiente.webp);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    margin-bottom: 197px;
+    
+
+}
+.sec1{
+    width: 1897px;
+    height: 900px;
+    
+}
+
+.sec1 h1{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: var(--braco);
+    padding-top: 286px;
+}
+
+.sec1 p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: var(--braco);
+}
+
+.butão3{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: 400;
+
+}
+
+.butão4{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: 400;
+
+}
+
+.sec1 a{
+ color: white;
+ text-decoration: none;
+ 
+}
+.butão3 a{
+    color: var(--braco);
+}
+
+.texto1{
+    margin-left: 64px;
+    
+}
+
+.tagline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 112px 64px;
+}
+
+#tag {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+img {
+    width: 616px;
+}
+
+#seta {
+    width: 24px;
+    margin-left: 8px;
+
+}
+
+.text {
+    max-width: 616px;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.text p {
+    font-size: 18px;
+
+}
+
+.text ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.text ul li h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text ul li p{
+    margin-top: 16px;
+    
+    font-size: 16px;
+}
+
+.text button {
+    color: #000000;
+    font-size: 16px;
+
+    border-color: #000000;
+    background-color: transparent;
+    padding: 12px 24px;
+}
+
+.text a {
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+
+    margin-left: 24px;
+    padding-right: 8px;
+
+}
+
+.sec2{
+    width: 1897px;
+    height: 780px;
+    }
+
+    .sec2 h2{
+        font-size: 32px;
+        font-weight: bold;
+        margin-left: 64px;
+        margin-bottom: 16px;
+
+    }
+
+    .sec2 p{
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 64px;
+        margin-bottom: 40px;
+    }
+    
+.sec2{
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 img{
+    margin-left: 80px;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    bottom: 50px;
+}
+
+.cta {
+    width: 100%;
+    max-height: 474px;
+
+    background-size: cover;
+    background-position: center; 
+
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./arquivos/cadeiras.webp);
+
+    display: flex;
+
+}
+
+.content {
+    color: white;
+
+    width: 768px;
+    height: 250px;
+
+
+    margin: 112px 608px 112px 64px;
+}
+
+.content h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+#email {
+    padding: 12px;
+    width: 370px;
+
+    margin-right: 16px;
+
+    border-color: #000000;
+
+}
+
+#submit {
+    color: white;
+    background-color: #000000;
+    padding: 12px 24px;
+    border-color: #000000;
+
+    cursor: pointer;
+}
+
+#terms {
+    font-size: 12px;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 64px;
+}
+
+.end ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.end img {
+    width: 24px;
+}
+
+.end li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.line {
+    width: 1312px;
+    height: 0;
+
+    margin: 0 auto 32px;
+    border: 1px #000000 solid;
+}
+
+.privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.privacy ul {
+    list-style: none;
+    gap: 24px;
+
+}
+
+.privacy li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+}
